@@ -27,6 +27,15 @@ img{
     height: 100%;
 }
 
+.bg-color-send{
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+.bg-color-send:hover{
+    background-color: #1be7be;
+    border-color: #1ABC9C;
+}
 
 .separator{
     vertical-align: middle;
@@ -131,4 +140,19 @@ footer{
 
 .color-red{
     color: #1ABB9C;
+}
+
+@media screen and (min-width: 992px){
+    header a.navbar-brand{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    #jumbotron .subtitle{
+        font-size: 1.5rem;
+    }
 }
