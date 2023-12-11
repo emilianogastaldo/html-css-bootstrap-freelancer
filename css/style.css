@@ -74,14 +74,17 @@ header .nav-link{
 #portfolio img{
     border-radius: 20px;
 }
+
 /*SECTION ABOUT*/
-section.about{
-    background-color: #1ABC9C ;
+#about{
+    background-color: #1ABC9C;
+    font-size: 20px;
 }
 
 /*SECTION CONTACT ME*/
 section.contact-me{
     background-color: white;
+
 }
 
 
