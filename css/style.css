@@ -82,11 +82,21 @@ header .nav-link{
 }
 
 /*SECTION CONTACT ME*/
-section.contact-me{
+#contact{
     background-color: white;
 
 }
-
+#contact .form-control{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    padding-left: 0;
+    padding-bottom: 10px;
+    box-shadow: none;
+}
+#contact .form-control::placeholder{
+    color: #2C3E50;
+}
 
 /*FOOTER*/
 footer{
