@@ -3,6 +3,10 @@ body{
     background-color: antiquewhite;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
 /*UTILITIES*/
 .border-red{
    
@@ -23,12 +27,13 @@ body{
     height: 100%;
 }
 
+
 .separator{
     vertical-align: middle;
 }
 .line{
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid currentColor;
     border-radius: 4px;
     min-width: 10vw;
     margin: 0 10px;
@@ -59,11 +64,16 @@ header .nav-link{
     width: 250px;
     margin: 0 auto;
 }
-/*SECTION PORTFOLIO*/
-section.portfolio{
-    background-color: white;
-}
 
+
+/*SECTION PORTFOLIO*/
+#portfolio{
+    background-color: white;
+    color: #2C3E50;
+}
+#portfolio img{
+    border-radius: 20px;
+}
 /*SECTION ABOUT*/
 section.about{
     background-color: #1ABC9C ;
