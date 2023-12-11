@@ -24,10 +24,18 @@ body{
 }
 /*HEADER BODY*/
 header{
-    height: 100px;
-    background-color: #2C3E50 ;
+    background-color: #2C3E50;
+    font-weight: 500;
 }
-
+header button.navbar-toggler{
+    border-color: #B1B5BA;
+}
+header .navbar-collapse{
+    flex-grow: 0;
+}
+header .nav-link{
+    color: white;
+}
 /*  MAIN    */
 
 /*JUMBOTRON*/
